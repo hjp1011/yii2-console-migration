@@ -55,7 +55,7 @@ php ./yii migrate/backup table1 #Back up a table
 php ./yii migrate/up #Restore all tables
 ```
 
-在后台中备份数据表：
+Back up tables in the background:
 -----
 Add the following code to a background controller, such as PublicController:
 ```php
